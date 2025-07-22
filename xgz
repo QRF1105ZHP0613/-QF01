@@ -1,0 +1,11 @@
+# 克隆仓库到本地
+git clone https://github.com/你的用户名/仓库名.git
+cd 仓库名
+
+# 添加文件到仓库
+echo "# 项目标题" >> README.md
+git add .
+git commit -m "初始化提交"
+
+# 推送到 GitHub
+git push origin main
